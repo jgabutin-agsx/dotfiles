@@ -1,0 +1,8 @@
+[user]
+	name = johndoe
+	email = johndoe@mail.com
+[pager]
+	branch = cat
+	log = false
+[core]
+  excludesfile = /Users/johndoe/.gitignore_global 
