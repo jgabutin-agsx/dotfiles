@@ -33,3 +33,8 @@
 
 - Added sorting config for telescope ('ascending' - list goes top to bottom)
 - unbound 's' globally, instead of remapping it to 'l'
+
+#### 20230518
+
+- Installed ranger in iterm2
+- Added neovim as default editor
