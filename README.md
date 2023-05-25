@@ -38,3 +38,8 @@
 
 - Installed ranger in iterm2
 - Added neovim as default editor
+
+#### 20230525
+
+- Added alias for ranger in .zshrc
+  - aliased source ranger to change directory when quitting ranger
