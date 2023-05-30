@@ -43,3 +43,11 @@
 
 - Added alias for ranger in .zshrc
   - aliased source ranger to change directory when quitting ranger
+
+#### 20230530
+
+- Added spell check in neovim set.lua file
+  - z= - word suggestions
+  - zg - add word to dictionary
+  - ]s - jump to next spelling error
+  - [s - jump to previous spelling error

@@ -70,7 +70,7 @@ lualine.setup({
 	extensions = {},
 })
 
-lualine.hide({
-	place = { "winbar" },
-	unhide = false,
-})
+-- lualine.hide({
+-- 	place = { "winbar" },
+-- 	unhide = true,
+-- })

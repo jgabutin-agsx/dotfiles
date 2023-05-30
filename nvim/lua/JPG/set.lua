@@ -27,4 +27,8 @@ vim.opt.encoding = "utf-8"
 vim.opt.fileencoding = "utf-8"
 
 vim.opt.path:append({ "**" }) -- Finding files - Search down into subfolders
-vim.opt.wildignore:append({ "*/node_modules/*" })
+vim.opt.wildignore:append({ "*/node%_modules/*" })
+
+-- spell check
+vim.opt.spelllang = "en_us"
+vim.opt.spell = true
