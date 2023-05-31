@@ -119,6 +119,7 @@ alias vi="nvim"
 alias via="nvim ."
 alias gpo="git push origin"
 alias ide="~/ide.sh"
+alias ide2="~/ide2.sh"
 alias ranger=". ranger"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

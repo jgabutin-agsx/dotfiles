@@ -56,3 +56,6 @@
 
 - Added default config for prettier in null_ls file
 - Added utils/prettier-config folder for prettier.config.js
+- Renamed ide.sh to ide2.sh
+  - Made a new ide.sh
+- Added aliases for both shell scripts
