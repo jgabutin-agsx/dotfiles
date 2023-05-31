@@ -46,7 +46,7 @@ cmp.setup({
 		format = lspkind.cmp_format({
 			with_text = true,
 			maxwidth = 50,
-			eillipsis_char = "...",
+			ellipsis_char = "...",
 		}),
 	},
 })

@@ -51,3 +51,8 @@
   - zg - add word to dictionary
   - ]s - jump to next spelling error
   - [s - jump to previous spelling error
+
+#### 20230531
+
+- Added default config for prettier in null_ls file
+- Added utils/prettier-config folder for prettier.config.js
