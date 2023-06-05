@@ -59,3 +59,7 @@
 - Renamed ide.sh to ide2.sh
   - Made a new ide.sh
 - Added aliases for both shell scripts
+
+#### 20230605
+
+- Added vertical split in lower pane of ide.sh
