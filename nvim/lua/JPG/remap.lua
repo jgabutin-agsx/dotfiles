@@ -20,10 +20,17 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 -- do not yank with x
 vim.keymap.set("n", "x", '"_x')
 
--- stores yank in clipboard
-vim.keymap.set("n", "<leader>y", '"+y')
-vim.keymap.set("v", "<leader>y", '"+y')
-vim.keymap.set("n", "<leader>Y", '"+Y')
+-- yanks into system clipboard
+vim.keymap.set({ "n", "v" }, "<leader>y", '"+y') -- yank motion
+vim.keymap.set({ "n", "v" }, "<leader>Y", '"+Y') -- yank line
+
+-- delete into system clipboard
+vim.keymap.set({ "n", "v" }, "<leader>d", '"+d') -- delete motion
+vim.keymap.set({ "n", "v" }, "<leader>D", '"+D') -- delete line
+
+-- paste from system clipboard
+vim.keymap.set({ "n", "v" }, "<leader>p", '"+p') -- paste after cursor
+vim.keymap.set({ "n", "v" }, "<leader>P", '"+P') -- paste before cursor
 
 -- nvim tree toggle
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")

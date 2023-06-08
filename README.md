@@ -63,3 +63,12 @@
 #### 20230605
 
 - Added vertical split in lower pane of ide.sh
+
+#### 20230607
+
+- Changed ranger rc.conf set show_hidden to true
+- Added in nvim remap:
+  - yank into system clipboard
+  - delete into system clipboard
+  - paste from system clipboard
+- Included packer_compiled.lua in gitignore
