@@ -8,6 +8,9 @@ if not typescript_setup then
   return
 end
 
+-- For gopls
+local util = require("lspconfig/util")
+
 -- DIAGNOSTIC SIGNS (added from trouble.nvim inspiration)
 local signs = { Error = " ", Warn = " ", Hint = " ", Info = " " }
 for type, icon in pairs(signs) do
@@ -123,5 +126,22 @@ nvim_lsp["emmet_ls"].setup({
     "scss",
     "less",
     "svelte",
+  },
+})
+
+nvim_lsp.gopls.setup({
+  on_attach = on_attach,
+  capabilities = capabilities,
+  flags = lsp_flags,
+  filetypes = { "go", "gomod", "gowork", "gotmpl" },
+  root_dir = util.root_pattern("go.work", "go.mod", ".git"),
+  settings = {
+    gopls = {
+      completeUnimported = true,
+      usePlaceholders = true,
+      analyses = {
+        unusedparams = true,
+      },
+    },
   },
 })

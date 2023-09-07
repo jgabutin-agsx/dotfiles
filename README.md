@@ -72,3 +72,9 @@
   - delete into system clipboard
   - paste from system clipboard
 - Included packer_compiled.lua in gitignore
+
+#### 20230907
+
+- Added gopls in lsp
+- Changed or commented out deprecated settings from recent update
+- Used `MasonInstall` to install go formatters (gofumpt, goimports-reviser, golines)
