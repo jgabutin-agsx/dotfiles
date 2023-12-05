@@ -78,3 +78,8 @@
 - Added gopls in lsp
 - Changed or commented out deprecated settings from recent update
 - Used `MasonInstall` to install go formatters (gofumpt, goimports-reviser, golines)
+
+#### 20231205
+
+- Moved nvim directory to Packer-Config
+- Added Neovim lazy config
