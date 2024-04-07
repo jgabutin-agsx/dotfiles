@@ -14,7 +14,7 @@ return {
         "typescript-language-server",
         "css-lsp",
         -- personal
-        "gopls",
+        -- "gopls",
       })
     end,
   },

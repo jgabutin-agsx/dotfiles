@@ -71,3 +71,6 @@ let g:nremap = {'s': ''}
 let g:xremap = {'s': ''}
 let g:oremap = {'s': ''}
 ]])
+
+-- unbind <C-o> from jump commands
+keymap.set("n", "<C-o>", "")
